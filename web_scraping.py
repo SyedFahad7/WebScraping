@@ -112,7 +112,7 @@ def data_processing(csv_file_path, output_directory):
     
     # 4. Data Filtering
     # Filter rows based on a condition
-    filtered_df = df[df['m_01'] > 100]  # Example condition, replace with appropriate column and condition
+    filtered_df = df[df['m_01'] > 100]
 
     # Displaying the processed DataFrames
     print("\nProcessed DataFrames:")
